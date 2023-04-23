@@ -67,7 +67,7 @@
 <SCRIPT LANGUAGE="javascript">
 
 var text = String(window.location);
-document.getElementById("result").innerHTML=("$"+text.split("=").pop()+"?");
+document.getElementById("result").innerHTML=("Rs. "+text.split("=").pop()+"?");
 
 // LEAVE DOWN HERE
 function getQueryStrings() {
@@ -87,7 +87,7 @@ function getQueryStrings() {
 var qs = getQueryStrings();
 var type = qs["account"];
 var amount = qs["val"];
-$("#title").append('<h3 style="text-align: center"> Enter the amount to withdraw from ' + type+ " 1234567887654321:" + '</h3>');
+$("#title").append('<h3 style="text-align: center"> Enter the amount to withdraw from ' + type+ " 500083476:" + '</h3>');
 
 function submitForm(value) {
     location.href = 'confirmWithdrawal.html?account='+ type +'&val=' + value ;

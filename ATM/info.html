@@ -86,12 +86,12 @@
     var qs = getQueryStrings();
     var myParam = qs["account"];
     console.log(myParam);
-    $("#title").append('<h1 style="text-align: center">' + myParam + " 1234567887654321:" + '</h1>');
+    $("#title").append('<h1 style="text-align: center">' + myParam + " 500083476:" + '</h1>');
     if (myParam == "CHQ") {
-        $('#balance').append('<h2 align="center">Current Balance: $' + getChequingBalance() +'</h2>')
+        $('#balance').append('<h2 align="center">Current Balance: Rs. ' + getChequingBalance() +'</h2>')
         var trans = getChequingTransactions();
     }else{
-        $('#balance').append('<h2 align="center">Current Balance: $' + getSavingsBalance() +'</h2>')
+        $('#balance').append('<h2 align="center">Current Balance: Rs. ' + getSavingsBalance() +'</h2>')
         var trans = getSavingsTransactions();
         }
     tableCreate(trans);

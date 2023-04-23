@@ -265,7 +265,7 @@
         var btnVal = parseInt(document.getElementById("up100").value);
         var result=val+btnVal;
         if (result>300){
-                alert("$300 is the limit to withdraw from the ATM");
+                alert("Rs.300 is the limit to withdraw from the ATM");
             }
         if (result>=0&&result<=300){
             document.getElementById("numba").value=result;
@@ -276,7 +276,7 @@
         var btnVal = parseInt(document.getElementById("up20").value);
         var result=val+btnVal;
         if (result>300){
-                alert("$300 is the limit to withdraw from the ATM");
+                alert("RS.300 is the limit to withdraw from the ATM");
             }
         if (result>=0&&result<=300){
 
@@ -319,7 +319,7 @@
     }
     var qs = getQueryStrings();
     var myParam = qs["account"];
-    $("#title").append('<h3 style="text-align: center"> Enter the amount to withdraw from ' + myParam + " 1234567887654321:" + '</h3>');
+    $("#title").append('<h3 style="text-align: center"> Enter the amount to withdraw from ' + myParam + " 500083476:" + '</h3>');
 
     function submitForm(value) {
         console.log(myParam)

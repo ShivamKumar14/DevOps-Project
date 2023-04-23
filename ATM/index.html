@@ -29,7 +29,7 @@
 	<h2 style="text-align: center">Enter your 16 digit account number or insert your card below:</h2>
 </div>
 
-<p align="center"> *** The Account Number is 1234567887654321 *** </p>
+<p align="center"> *** The Account Number is 500083476*** </p>
 
 <p align="center"><input  id="tbInput" class="PINtext" type="password" placeholder="Enter Account Number" maxlength="16" readonly/></p>
 
@@ -57,8 +57,8 @@
 
 <script>
   var users = {
-    'accountNumber': 1234567887654321,
-    'accountPin': 6969,
+    'accountNumber': 500083476,
+    'accountPin': 1234,
     'chequingBalance': 2000,
     'savingsBalance': 5000,
     'chequingTransactions': [[Date(),0,0,2000]],
@@ -84,7 +84,7 @@ function del() {
 }
 
 function ent() {
-	var PIN="1234567887654321";
+	var PIN="500083476";
 	var str1=document.getElementById("tbInput").value;
 	if (str1==PIN) {
 		window.location="PINInput.html";
